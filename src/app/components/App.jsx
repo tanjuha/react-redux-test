@@ -2,7 +2,7 @@ import React from 'react';
 
 const App = () => (
   <div className="working-test">
-      Working
+      Working, test react redux
   </div>
 );
 
