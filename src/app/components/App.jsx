@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './navbar';
-import Hotels from './hotels';
+import Home from './home';
 
 const App = () => (
   <div className="working-test">
     <Navbar/>
-    <Hotels/>
+    <Home/>
   </div>
 );
 

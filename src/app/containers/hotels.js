@@ -1,3 +1,28 @@
+import React from "react";
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+
+
+import {requestGetHotels} from "../actions/hotel-action";
+
+    class Hotels extends React.Component {
+      
+        render() {
+           
+            return (
+                <ol>
+                    dont work
+                </ol>
+            )
+        };
+    }
+
+    const mapStateToProps = state => ({ users: state.user });
+  export default Hotels;
+  
+
+//Hotels
+/*
 import React from 'react';
 
 const Hotels = () => (
@@ -21,3 +46,5 @@ const Hotels = () => (
 );
 
 export default Hotels;
+
+*/
