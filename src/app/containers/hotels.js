@@ -2,23 +2,39 @@ import React from "react";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 
+import {requestGetHotels} from '../actions/hotel-action';
 
-import {requestGetHotels} from "../actions/hotel-action";
 
-    class Hotels extends React.Component {
-      
-        render() {
-           
-            return (
-                <ol>
-                    dont work
-                </ol>
-            )
-        };
+class Hotels extends React.Component {
+    componentDidMount() {
+        this.props.requestGetHotels();
     }
 
-    const mapStateToProps = state => ({ users: state.user });
-  export default Hotels;
+    showList(users) {
+        return users.map((user) => {
+            return (
+                <li onClick={() => {this.props.selectUser(user)}} key={user.id}>{user.name}</li>
+            );
+        })
+    }
+
+    render() {
+        const {data = []} = this.props.users;
+        return (
+            <ol>
+                {this.showList(data)}
+            </ol>
+        )
+    };
+}
+
+const mapStateToProps = state => ({ users: state.user });
+
+const mapDispatchToProps = dispatch =>
+    bindActionCreators({ requestGetHotels}, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(Hotels)
+
   
 
 //Hotels
