@@ -12,7 +12,7 @@ module.exports = {
   entry: {
     main: [
       '@babel/polyfill',
-      './src/app/index.js',
+      './src/index.js',
       'bootstrap/dist/css/bootstrap.min.css',
       './src/public/styles/scss/main.scss',
     ],
