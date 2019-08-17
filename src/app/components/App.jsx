@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar from './navbar';
+import Hotels from './hotels';
 
 const App = () => (
   <div className="working-test">
-      Working, test react redux
+    <Navbar/>
+    <Hotels/>
   </div>
 );
 
