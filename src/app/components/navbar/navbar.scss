@@ -1,0 +1,19 @@
+@import '../../../public/styles/scss/variables.scss';
+@import '../../../public/styles/scss/mixin.scss';
+
+
+.bg-main{
+    background-color: $bg-main;
+}
+
+.fa-home{
+    color: $bg-second;
+}
+
+.nav-link{
+    @include text;
+}
+
+.navbar-toggler:focus{
+    outline: 5px auto $bg-second;
+  }

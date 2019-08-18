@@ -1,0 +1,26 @@
+@mixin text (
+    $fontSize: $font-size-small, 
+    $textTransform: uppercase, 
+    $letterSpacing: $letter-spacing
+    ) {
+    font-size: $font-size-small;
+    text-transform: $textTransform;
+    letter-spacing: $letterSpacing;
+    font-weight: bold;
+}
+
+@mixin button ($mainColor: $bg-second, $secondColor: $bg-main){
+    padding: 10px 15px;
+    color:$secondColor;
+    background: $mainColor;
+    border: {
+        radius: 0;
+        color: $secondColor
+    }
+    @include text;
+    &:hover{
+        background: $secondColor;
+        color: $mainColor;  
+        border-color: $mainColor
+    }
+}

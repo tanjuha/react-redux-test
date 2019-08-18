@@ -1,6 +1,11 @@
-@import "variables";
+@import './variables';
+@import '../../../app/components/navbar/navbar.scss';
 
-.working-test {
-  color: $green;
+
+.button-light{
+  @include button;
 }
 
+.button-dark{
+  @include button($bg-main,$bg-second);
+}
