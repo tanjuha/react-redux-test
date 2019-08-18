@@ -5,7 +5,7 @@ const Navbar = () => (
      <nav className="navbar navbar-expand-lg navbar-dark bg-main p-3">
         <a className="navbar-brand mr-5" href="#">   
           <i className="fas fa-home mr-1"></i>
-          SweetHome
+          TheBestHotels
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggler" aria-controls="navbarToggler" 

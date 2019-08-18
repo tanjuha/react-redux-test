@@ -17,10 +17,11 @@
         radius: 0;
         color: $secondColor
     }
+    transition: $transition;
     @include text;
     &:hover{
         background: $secondColor;
         color: $mainColor;  
-        border-color: $mainColor
+        border-color: $mainColor;
     }
 }

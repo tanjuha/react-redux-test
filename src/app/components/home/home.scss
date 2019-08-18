@@ -6,3 +6,17 @@
     padding: 35px;
     box-shadow: $box-shadow;
 }
+
+//hotels
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 50px;
+    margin: 0;
+}
+
+.post-card:nth-child(2n){
+    flex-direction: row-reverse;
+}

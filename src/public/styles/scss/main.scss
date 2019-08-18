@@ -2,10 +2,32 @@
 @import '../../../app/components/navbar/navbar.scss';
 
 
+ul{
+  padding:0;
+}
+
+li{
+  list-style: none;
+}
+
 .button-light{
   @include button;
 }
 
 .button-dark{
   @include button($bg-main,$bg-second);
+}
+
+.under-line{
+  position: relative;
+  &::after{
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    top: 100%;
+    left: calc(50% - 25%);
+    margin-top: 5px;
+    content: "";
+    background: $bg-main;
+  }
 }
