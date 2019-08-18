@@ -31,3 +31,12 @@ li{
     background: $bg-main;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb{
+  background: $bg-main;
+}
