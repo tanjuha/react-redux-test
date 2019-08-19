@@ -1,0 +1,686 @@
+[
+    {
+        "id": 1,
+        "name": "Bukovyna Hotel",
+        "description": "Bukovyna Hotel_dsc",
+        "star_rating": 4,
+        "reviews_rating": 4.3,
+        "activated": true,
+        "owner_id": 1,
+        "address_id": 1,
+        "user": {
+            "id": 1,
+            "email": "user01_Chernivtsi@gmail.com",
+            "full_name": "Name01 Surname",
+            "password": "user01_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 1,
+            "country": "Ukraine",
+            "city": "Chernivtsi",
+            "street": "Golovna Street, 141",
+            "poi": "ChIJTfbiD8cINEcR-lLXGs1Za4Y"
+        },
+        "photos": [
+            {
+                "id": 3,
+                "photo_url": "https://t-ec.bstatic.com/images/hotel/max1024x768/658/65853100.jpg",
+                "hotel_id": 1
+            },
+            {
+                "id": 2,
+                "photo_url": "https://t-ec.bstatic.com/images/hotel/max1024x768/159/159134370.jpg",
+                "hotel_id": 1
+            },
+            {
+                "id": 1,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1024x768/159/159134406.jpg",
+                "hotel_id": 1
+            }
+        ],
+        "rooms": [
+            {
+                "id": 1,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 1
+            },
+            {
+                "id": 2,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 1
+            },
+            {
+                "id": 3,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 1
+            },
+            {
+                "id": 5,
+                "available": false,
+                "room_type_id": 5,
+                "hotel_id": 1
+            },
+            {
+                "id": 4,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "BANKHOTEL",
+        "description": "BANKHOTEL_dsc",
+        "star_rating": 5,
+        "reviews_rating": 4.5,
+        "activated": true,
+        "owner_id": 4,
+        "address_id": 4,
+        "user": {
+            "id": 4,
+            "email": "user04_Lviv@gmail.com",
+            "full_name": "Name04 Surname",
+            "password": "user04_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 4,
+            "country": "Ukraine",
+            "city": "Lviv",
+            "street": "8 Lystopadovoho Chynu Street",
+            "poi": "ChIJk8SOaXHdOkcR1BC4x7LJAHE"
+        },
+        "photos": [
+            {
+                "id": 6,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/108/10800610.jpg",
+                "hotel_id": 2
+            },
+            {
+                "id": 5,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/108/10800618.jpg",
+                "hotel_id": 2
+            },
+            {
+                "id": 4,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/108/10800623.jpg",
+                "hotel_id": 2
+            }
+        ],
+        "rooms": [
+            {
+                "id": 6,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 2
+            },
+            {
+                "id": 7,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 2
+            },
+            {
+                "id": 8,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 2
+            },
+            {
+                "id": 9,
+                "available": false,
+                "room_type_id": 4,
+                "hotel_id": 2
+            },
+            {
+                "id": 10,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 2
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "AllureInn",
+        "description": "AllureInn_dsc",
+        "star_rating": 4,
+        "reviews_rating": 4.4,
+        "activated": true,
+        "owner_id": 3,
+        "address_id": 3,
+        "user": {
+            "id": 3,
+            "email": "user03_Chernivtsi@gmail.com",
+            "full_name": "Name03 Surname",
+            "password": "user03_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 3,
+            "country": "Ukraine",
+            "city": "Chernivtsi",
+            "street": "Tsentralna ploshcha, 6",
+            "poi": ""
+        },
+        "photos": [
+            {
+                "id": 9,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1024x768/193/193704486.jpg",
+                "hotel_id": 3
+            },
+            {
+                "id": 8,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1024x768/193/193705986.jpg",
+                "hotel_id": 3
+            },
+            {
+                "id": 7,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1024x768/464/46476177.jpg",
+                "hotel_id": 3
+            }
+        ],
+        "rooms": [
+            {
+                "id": 11,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 3
+            },
+            {
+                "id": 12,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 3
+            },
+            {
+                "id": 13,
+                "available": false,
+                "room_type_id": 3,
+                "hotel_id": 3
+            },
+            {
+                "id": 14,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 3
+            },
+            {
+                "id": 15,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 3
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Magnat",
+        "description": "Magnat_dsc",
+        "star_rating": 3,
+        "reviews_rating": 4,
+        "activated": true,
+        "owner_id": 2,
+        "address_id": 2,
+        "user": {
+            "id": 2,
+            "email": "user02_Chernivtsi@gmail.com",
+            "full_name": "Name02 Surname",
+            "password": "user02_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 2,
+            "country": "Ukraine",
+            "city": "Chernivtsi",
+            "street": "Lva Tolstoho, 16a",
+            "poi": "ChIJJ3lwX5sINEcRCJnyThoFxG8"
+        },
+        "photos": [
+            {
+                "id": 12,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/169/169503242.jpg",
+                "hotel_id": 4
+            },
+            {
+                "id": 11,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/169/169503237.jpg",
+                "hotel_id": 4
+            },
+            {
+                "id": 10,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/169/169519485.jpg",
+                "hotel_id": 4
+            }
+        ],
+        "rooms": [
+            {
+                "id": 16,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 4
+            },
+            {
+                "id": 17,
+                "available": false,
+                "room_type_id": 2,
+                "hotel_id": 4
+            },
+            {
+                "id": 18,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 4
+            },
+            {
+                "id": 19,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 4
+            },
+            {
+                "id": 20,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 4
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Astoria Hotel",
+        "description": "Astoria Hotel_dsc",
+        "star_rating": 4,
+        "reviews_rating": 4.2,
+        "activated": true,
+        "owner_id": 5,
+        "address_id": 5,
+        "user": {
+            "id": 5,
+            "email": "user05_Lviv@gmail.com",
+            "full_name": "Name05 Surname",
+            "password": "user05_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 5,
+            "country": "Ukraine",
+            "city": "Lviv",
+            "street": "15 Horodotska Street",
+            "poi": "ChIJk8SOaXHdOkcR1BC4x7LJAHE"
+        },
+        "photos": [
+            {
+                "id": 15,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/472/47273806.jpg",
+                "hotel_id": 5
+            },
+            {
+                "id": 14,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/342/34220726.jpg",
+                "hotel_id": 5
+            },
+            {
+                "id": 13,
+                "photo_url": "https://t-ec.bstatic.com/images/hotel/max1280x900/352/35266841.jpg",
+                "hotel_id": 5
+            }
+        ],
+        "rooms": [
+            {
+                "id": 21,
+                "available": false,
+                "room_type_id": 1,
+                "hotel_id": 5
+            },
+            {
+                "id": 22,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 5
+            },
+            {
+                "id": 23,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 5
+            },
+            {
+                "id": 24,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 5
+            },
+            {
+                "id": 25,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 5
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Plazma",
+        "description": "Plazma_dsc",
+        "star_rating": 3,
+        "reviews_rating": 4,
+        "activated": true,
+        "owner_id": 6,
+        "address_id": 6,
+        "user": {
+            "id": 6,
+            "email": "user06_Lviv@gmail.com",
+            "full_name": "Name06 Surname",
+            "password": "user06_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 6,
+            "country": "Ukraine",
+            "city": "Lviv",
+            "street": "Prospekt Svobody 5",
+            "poi": "ChIJPbIkD27dOkcRAi5mz57l3JE"
+        },
+        "photos": [
+            {
+                "id": 18,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/393/39337972.jpg",
+                "hotel_id": 6
+            },
+            {
+                "id": 17,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/393/39340147.jpg",
+                "hotel_id": 6
+            },
+            {
+                "id": 16,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/407/40725703.jpg",
+                "hotel_id": 6
+            }
+        ],
+        "rooms": [
+            {
+                "id": 26,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 6
+            },
+            {
+                "id": 27,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 6
+            },
+            {
+                "id": 28,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 6
+            },
+            {
+                "id": 29,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 6
+            },
+            {
+                "id": 30,
+                "available": false,
+                "room_type_id": 5,
+                "hotel_id": 6
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Tsunami Spa Hotel",
+        "description": "Tsunami Spa Hotel_dsc",
+        "star_rating": 5,
+        "reviews_rating": 4,
+        "activated": true,
+        "owner_id": 7,
+        "address_id": 7,
+        "user": {
+            "id": 7,
+            "email": "user07_Dnipro@gmail.com",
+            "full_name": "Name07 Surname",
+            "password": "user07_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 7,
+            "country": "Ukraine",
+            "city": "Dnipro",
+            "street": "Soborna Pl.12A",
+            "poi": "ChIJmycGPdLi20ARCimTG9J5jW8"
+        },
+        "photos": [
+            {
+                "id": 21,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/110/110816623.jpg",
+                "hotel_id": 7
+            },
+            {
+                "id": 20,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/110/110820051.jpg",
+                "hotel_id": 7
+            },
+            {
+                "id": 19,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/134/13449531.jpg",
+                "hotel_id": 7
+            }
+        ],
+        "rooms": [
+            {
+                "id": 31,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 7
+            },
+            {
+                "id": 32,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 7
+            },
+            {
+                "id": 33,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 7
+            },
+            {
+                "id": 34,
+                "available": false,
+                "room_type_id": 4,
+                "hotel_id": 7
+            },
+            {
+                "id": 35,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 7
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Bartolomeo",
+        "description": "Bartolomeo_dsc",
+        "star_rating": 4,
+        "reviews_rating": 4.3,
+        "activated": true,
+        "owner_id": 8,
+        "address_id": 8,
+        "user": {
+            "id": 8,
+            "email": "user08_Dnipro@gmail.com",
+            "full_name": "Name08 Surname",
+            "password": "user08_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 8,
+            "country": "Ukraine",
+            "city": "Dnipro",
+            "street": "Naberezhnaya Pobedy 9B",
+            "poi": "ChIJif5s2zL920ARga8Jv_-2DW4"
+        },
+        "photos": [
+            {
+                "id": 24,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/175/175720250.jpg",
+                "hotel_id": 8
+            },
+            {
+                "id": 23,
+                "photo_url": "https://t-ec.bstatic.com/images/hotel/max1280x900/813/81356819.jpg",
+                "hotel_id": 8
+            },
+            {
+                "id": 22,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/127/127565620.jpg",
+                "hotel_id": 8
+            }
+        ],
+        "rooms": [
+            {
+                "id": 36,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 8
+            },
+            {
+                "id": 37,
+                "available": true,
+                "room_type_id": 2,
+                "hotel_id": 8
+            },
+            {
+                "id": 38,
+                "available": false,
+                "room_type_id": 3,
+                "hotel_id": 8
+            },
+            {
+                "id": 39,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 8
+            },
+            {
+                "id": 40,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 8
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Dnepropetrovsk Hotel",
+        "description": "Dnepropetrovsk Hotel_dsc",
+        "star_rating": 3,
+        "reviews_rating": 4.9,
+        "activated": true,
+        "owner_id": 9,
+        "address_id": 9,
+        "user": {
+            "id": 9,
+            "email": "user09_Dnipro@gmail.com",
+            "full_name": "Name09 Surname",
+            "password": "user09_pw",
+            "authType": null,
+            "role": "OWNER",
+            "activated": true,
+            "banned": false
+        },
+        "address": {
+            "id": 9,
+            "country": "Ukraine",
+            "city": "Dnipro",
+            "street": "Sicheslavska Naberezhna street 33",
+            "poi": "ChIJa_xYbsLi20AR1nZIms03Da4"
+        },
+        "photos": [
+            {
+                "id": 27,
+                "photo_url": "https://s-ec.bstatic.com/images/hotel/max1280x900/535/53547856.jpg",
+                "hotel_id": 9
+            },
+            {
+                "id": 26,
+                "photo_url": "https://t-ec.bstatic.com/images/hotel/max1280x900/432/43252175.jpg",
+                "hotel_id": 9
+            },
+            {
+                "id": 25,
+                "photo_url": "https://t-ec.bstatic.com/images/hotel/max1280x900/432/43252175.jpg",
+                "hotel_id": 9
+            }
+        ],
+        "rooms": [
+            {
+                "id": 41,
+                "available": true,
+                "room_type_id": 1,
+                "hotel_id": 9
+            },
+            {
+                "id": 42,
+                "available": false,
+                "room_type_id": 2,
+                "hotel_id": 9
+            },
+            {
+                "id": 43,
+                "available": true,
+                "room_type_id": 3,
+                "hotel_id": 9
+            },
+            {
+                "id": 44,
+                "available": true,
+                "room_type_id": 4,
+                "hotel_id": 9
+            },
+            {
+                "id": 45,
+                "available": true,
+                "room_type_id": 5,
+                "hotel_id": 9
+            }
+        ]
+    }
+]

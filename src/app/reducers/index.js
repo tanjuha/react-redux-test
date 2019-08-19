@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import user from './hotels';
+import users from './hotels';
 
 const rootReducers = combineReducers({
-    user: user
+    users
 })
 
 export default rootReducers;

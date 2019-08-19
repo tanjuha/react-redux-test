@@ -1,9 +1,16 @@
 import {RECEIVE_GET_HOTELS} from '../constans/action-types';
 
-export default function (state = {}, action) {
+const initialState = {
+    listUsers: []
+}
+
+export default function (state = initialState, action) {
     switch (action.type) {
         case RECEIVE_GET_HOTELS: 
-            return action.data;
+            return {
+                ...state,
+                listUsers: action.payload
+            }
         default:
             return state
     }

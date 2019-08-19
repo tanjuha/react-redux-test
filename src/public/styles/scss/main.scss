@@ -18,6 +18,10 @@ li{
   @include button($bg-main,$bg-second);
 }
 
+.form-control{
+  border-radius: 0;
+}
+
 .under-line{
   position: relative;
   &::after{

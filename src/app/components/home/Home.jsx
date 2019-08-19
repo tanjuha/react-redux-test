@@ -1,5 +1,5 @@
 import React from "react";
-import Hotels from '../../containers/hotels';
+import {Hotels} from '../../containers';
 import './home.scss';
 
 const Home = () => {
