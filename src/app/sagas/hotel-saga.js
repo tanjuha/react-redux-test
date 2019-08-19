@@ -1,7 +1,7 @@
 import {all, fork, call, put, takeEvery} from 'redux-saga/effects';
 import {REQUEST_GET_HOTELS, RECEIVE_GET_HOTELS} from '../constans/action-types';
 
-import {getHotels} from '../services/hotel-service';
+import {getHotels} from '../../api/hotel-api';
 
 
 function* workerGetHotels(action){

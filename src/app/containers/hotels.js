@@ -1,7 +1,7 @@
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
 import {Hotels} from '../components/hotels/Hotels.jsx';
-import {requestGetHotels} from '../actions/hotel-action';
+import {requestGetHotels} from '../../actions/hotel-action';
 
 
 function mapStateToProps(state) {

@@ -14,7 +14,7 @@ module.exports = {
       '@babel/polyfill',
       './src/index.js',
       'bootstrap/dist/css/bootstrap.min.css',
-      './src/public/styles/scss/main.scss',
+      './src/app/components/index.scss',
     ],
     bundle: ['bootstrap'],
   },
@@ -92,7 +92,7 @@ module.exports = {
       Popper: ['popper.js', 'default'],
     }),
     new CopyWebpackPlugin([
-      { from: 'src/public/img', to: 'img' },
+      { from: 'public/images', to: 'img' },
     ]),
     new webpack.SourceMapDevToolPlugin({
       filename: '[name].js.map',

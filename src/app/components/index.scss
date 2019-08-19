@@ -1,6 +1,11 @@
-@import './variables';
-@import '../../../app/components/navbar/navbar.scss';
+@import '../shared/variables.scss';
+@import '../shared/mixin.scss';
+@import '../../app/components/navbar/navbar.scss';
 
+html{
+  scrollbar-color: $bg-main #ddd;
+  scrollbar-width: thin;
+}
 
 ul{
   padding:0;
@@ -44,3 +49,5 @@ li{
 ::-webkit-scrollbar-thumb{
   background: $bg-main;
 }
+
+

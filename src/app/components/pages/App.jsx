@@ -5,10 +5,10 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import createSagaMiddleware from 'redux-saga';
 import {Provider} from 'react-redux';
 
-import Navbar from "../components/navbar";
-import rootReducers from "../reducers/index";
-import Home from "../components/home";
-import rootSaga from '../sagas'
+import Navbar from "../navbar";
+import rootReducers from "../../reducers/index";
+import Home from "../home";
+import rootSaga from '../../sagas'
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
